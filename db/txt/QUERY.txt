@@ -1,0 +1,6 @@
+LOAD DATA INFILE 'E:\\datosTSucursalPersona.txt'
+
+INTO TABLE bdRenta.sucursal_persona
+FIELDS TERMINATED BY ',' 
+
+LINES TERMINATED BY '\n' ;

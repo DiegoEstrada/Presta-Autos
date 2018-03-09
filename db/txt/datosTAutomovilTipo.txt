@@ -1,0 +1,11 @@
+1,Hatchback
+2,CUV
+3,Sedan
+4,SUV
+5,Station Wagon
+6,Pick Up
+7,Coupe
+8,Minivan
+9,Convertible
+10,Van
+11,Super Deportivo
