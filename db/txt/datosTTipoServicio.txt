@@ -1,0 +1,6 @@
+1,Prestamo Corto,Renta de un vehiculo de uno a dos dias,300	
+2,Prestamo Mediano,Renta de un vehiculo de tres a dos cinco,500
+3,Prestamo Largo,Renta de un vehiculo de seis a siete dias,700
+4,Cargo Dia extra presamo corto,Pago extra por retardo en la entrega a corto plazo,50
+5,Cargo Dia extra presamo mediano,Pago extra por retardo en la entrega a mediano plazo,70
+6,Cargo Dia extra presamo largo,Pago extra por retardo en la entrega a largo plazo,100
