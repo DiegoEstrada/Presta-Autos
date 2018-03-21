@@ -1,0 +1,9 @@
+1,volkswagenmexico@vwm.com
+2,fordsalesmexico@fordcompany.com
+3,gmsalesMexico@generalmotors.com
+5,nissanmx@nissanmc.com
+6,toyotamotorcompanysales@toyota.com
+7,renaultsales@renault.com
+8,hundayMexicoSales@kia.com
+9,KIAMotors@kia.com
+10,seatventas@seat.es

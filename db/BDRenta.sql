@@ -401,6 +401,7 @@ CREATE TABLE `proveedor_correo` (
 
 LOCK TABLES `proveedor_correo` WRITE;
 /*!40000 ALTER TABLE `proveedor_correo` DISABLE KEYS */;
+INSERT INTO `proveedor_correo` VALUES (1,'volkswagenmexico@vwm.com\r'),(2,'fordsalesmexico@fordcompany.com\r'),(3,'gmsalesMexico@generalmotors.com\r'),(5,'nissanmx@nissanmc.com\r'),(6,'toyotamotorcompanysales@toyota.com\r'),(7,'renaultsales@renault.com\r'),(8,'hundayMexicoSales@kia.com\r'),(9,'KIAMotors@kia.com\r'),(10,'seatventas@seat.es');
 /*!40000 ALTER TABLE `proveedor_correo` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -439,7 +440,7 @@ DROP TABLE IF EXISTS `proveedor_telefono`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `proveedor_telefono` (
   `idProveedorProvT` int(11) NOT NULL,
-  `TelefonoProvT` varchar(15) NOT NULL,
+  `TelefonoProvT` varchar(25) NOT NULL,
   PRIMARY KEY (`TelefonoProvT`,`idProveedorProvT`),
   KEY `ProveedorProveedor_Telefono_idx` (`idProveedorProvT`),
   CONSTRAINT `ProveedorProveedor_Telefono` FOREIGN KEY (`idProveedorProvT`) REFERENCES `proveedor` (`idProveedor`) ON DELETE NO ACTION ON UPDATE CASCADE
@@ -452,6 +453,7 @@ CREATE TABLE `proveedor_telefono` (
 
 LOCK TABLES `proveedor_telefono` WRITE;
 /*!40000 ALTER TABLE `proveedor_telefono` DISABLE KEYS */;
+INSERT INTO `proveedor_telefono` VALUES (1,'01-222-3035969\r'),(1,'55-50-70-88-00\r'),(2,'01-800-201-99-98\r'),(2,'01-800-719-84-66\r'),(3,'01-800-508-0000 \r'),(5,'01-449-139-5871\r'),(5,'55-53-33-99-00\r'),(6,'55-86-47-80-00\r'),(6,'800-331-4331 \r'),(7,'01-449-139-5872\r'),(7,'55-51-33-60-80\r'),(8,'52-442-713-5330\r'),(8,'55-41-22-20-00\r'),(9,'01-5547-800-542\r'),(9,'55-28-81-19-00\r'),(10,'01-800-202-06-80'),(10,'01-800-835-7328\r');
 /*!40000 ALTER TABLE `proveedor_telefono` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -627,4 +629,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-21  2:23:58
+-- Dump completed on 2018-03-21 13:03:14
